@@ -11,7 +11,7 @@ Part 2 of the notebook establishes the relationship between twitter sentiment & 
 
 - I have downloaded the stock data for Apple from yfinance.
 
-[View the Notebook on GitHub repository](https://github.com/kapil-git-tech/Sentiment_Analysis/blob/main/sentiment-analysis-with-twitter-data-for-apple.jpynb)
+[View the Notebook on GitHub repository](https://github.com/kapil-git-tech/Sentiment_Analysis/blob/main/sentiment-analysis-with-twitter-data-for-apple.ipynb)
 
 The notebook was originally created in Kaggle using twitter data. 
 
