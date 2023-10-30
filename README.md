@@ -1,7 +1,7 @@
 # This repository has a couple of use cases on SENTIMENT ANALYSIS:
 
-# 1. Sentiment Analysis for "AAPL" using twitter data - VADER Sentiment Analysis on Yearly data (2018)
-# 2. Sentiment Analysis on Apple phone reviews on Amazon using BERT
+### 1. Sentiment Analysis for "AAPL" using twitter data - VADER Sentiment Analysis on Yearly data (2018)
+### 2. Sentiment Analysis on Apple phone reviews on Amazon using BERT
 
 The 1st notebook examines the relationship between twitter sentiment and stock price.
 
