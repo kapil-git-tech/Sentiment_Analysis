@@ -1,13 +1,16 @@
-# Sentiment Analysis for "AAPL" using twitter data - Yearly data
+# This repository has a couple of use cases on SENTIMENT ANALYSIS:
 
-This notebook examines the relationship between twitter sentiment and stock price.
+# 1. Sentiment Analysis for "AAPL" using twitter data - VADER Sentiment Analysis on Yearly data (2018)
+# 2. Sentiment Analysis on Apple phone reviews on Amazon using BERT
 
-Part 1 of the notebook focusses on sentiment analysis.
+The 1st notebook examines the relationship between twitter sentiment and stock price.
+
+Part A of the first notebook focusses on sentiment analysis.
 
 - I have used NLTK's built-in, pretrained sentiment analyzer VADER (Valence Aware Dictionary and sEntiment Reasoner).
 The pre-trained sentiment analyzer returns the 'compound' score for each tweet. This score ranges from -1 (most negative) to +1 ( most positive).
 
-Part 2 of the notebook establishes the relationship between twitter sentiment & stock price
+Part B of the first notebook establishes the relationship between twitter sentiment & stock price
 
 - I have downloaded the stock data for Apple from yfinance.
 
@@ -17,3 +20,15 @@ The notebook was originally created in Kaggle using twitter data.
 
 [Dataset location: 
 /kaggle/input/tweets-about-the-top-companies-from-2015-to-2020]
+
+The 2nd notebook uses the pre-trained BERT based uncased model and fine-tunes it with Apple reviews data on Amazon.
+- I have tried the base & large cased as well as uncased model during training but left the results of the base uncased model in the notebook as it gave better results.
+The fine-tuned model is tested on a holdout sample & the results are shared. All the details related to fine-tuning are provided in detail in the notebook.
+The notebook can be used to fine tune the model for different use cases & hyperparameters can be modified to uplift accuracy.
+
+[View the Notebook on GitHub repository](https://github.com/kapil-git-tech/Sentiment_Analysis/blob/main/sentiment-analysis-on-phone-reviews-bert-use-case.ipynb)
+
+The notebook was originally created in Kaggle using Amazon reviews data on various brands/phones. 
+
+[Dataset location: 
+/kaggle/input/amazon-cell-phones-reviews]
