@@ -1,7 +1,8 @@
 # This repository has a couple of use cases on SENTIMENT ANALYSIS:
 
 ### 1. Sentiment Analysis for "AAPL" using twitter data - VADER Sentiment Analysis on Yearly data (2018)
-### 2. Sentiment Analysis on Apple phone reviews on Amazon using BERT
+### 2a. Sentiment Analysis on Apple phone reviews on Amazon using BERT
+### 2b. Comparison of results between BERT & VADER
 
 The 1st notebook examines the relationship between twitter sentiment and stock price.
 
@@ -16,11 +17,6 @@ Part B of the first notebook establishes the relationship between twitter sentim
 
 [View the Notebook on GitHub repository](https://github.com/kapil-git-tech/Sentiment_Analysis/blob/main/sentiment-analysis-with-twitter-data-for-apple.ipynb)
 
-The notebook was originally created in Kaggle using twitter data. 
-
-[Dataset location: 
-/kaggle/input/tweets-about-the-top-companies-from-2015-to-2020]
-
 The 2nd notebook uses the pre-trained BERT based uncased model and fine-tunes it with Apple reviews data on Amazon.
 - I have tried the base & large cased as well as uncased model during training but left the results of the base uncased model in the notebook as it gave better results.
 The fine-tuned model is tested on a holdout sample & the results are shared. All the details related to fine-tuning are provided in detail in the notebook.
@@ -28,7 +24,6 @@ The notebook can be used to fine tune the model for different use cases & hyperp
 
 [View the Notebook on GitHub repository](https://github.com/kapil-git-tech/Sentiment_Analysis/blob/main/sentiment-analysis-on-phone-reviews-bert-use-case.ipynb)
 
-The notebook was originally created in Kaggle using Amazon reviews data on various brands/phones. 
+The 3rd notebook just appends the results from VADER towards the end of notebook 2. The notebook proves how BERT fine tuned model is better at predicting sentiment than VADER.
 
-[Dataset location: 
-/kaggle/input/amazon-cell-phones-reviews]
+View the Notebook on GitHub repository](https://www.kaggle.com/kapilstp84/sentiment-analysis-on-phone-reviews-bert-vs-vader/edit)
