@@ -26,4 +26,4 @@ The notebook can be used to fine tune the model for different use cases & hyperp
 
 The 3rd notebook just appends the results from VADER towards the end of notebook 2. The notebook proves how BERT fine tuned model is better at predicting sentiment than VADER.
 
-View the Notebook on GitHub repository](https://github.com/kapil-git-tech/Sentiment_Analysis/blob/main/sentiment-analysis-on-phone-reviews-bert-vs-vader.ipynb)
+[View the Notebook on GitHub repository](https://github.com/kapil-git-tech/Sentiment_Analysis/blob/main/sentiment-analysis-on-phone-reviews-bert-vs-vader.ipynb)
